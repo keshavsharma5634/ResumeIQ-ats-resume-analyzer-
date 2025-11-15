@@ -72,10 +72,41 @@ Score =
 Backend returns JSON → frontend displays it beautifully.
 
 
+How to Install...
+
+Create venv environment....
+python -m venv venv
+
+Activate venv....
+venv\Scripts\activate
+
+Install backend requirements....
+create a file = pip install -r requirements.txt  (paste list)
+list of requirements =
+fastapi
+uvicorn
+python-multipart
+pydantic
+numpy
+pandas
+scikit-learn
+spacy
+nltk
+regex
+PyPDF2
+pdfplumber
+joblib
+python-dotenv
+tqdm
+sqlalchemy
+sqlite3
+
+
+
 
 📦 Installation & Running Locally
 🟦 Backend (FastAPI)
-cd backend-folder
+cd Automatic resume score(in this have backend you can confirm)
 pip install -r requirements.txt
 uvicorn main:app --reload
 
